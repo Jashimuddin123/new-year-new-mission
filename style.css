@@ -1,0 +1,330 @@
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./images/Banner\ Image.png);
+
+    background-repeat: no-repeat;
+    max-width: 1100px;
+    margin: auto;
+    min-height: 500px;
+    text-align: center;
+    background-size: cover;
+    background-blend-mode: darken;
+     background-position: center;
+     border-radius: 10px;
+    
+ 
+}
+
+
+.title{
+ 
+    color: white;
+    font-size: 25px;
+    padding-top: 35px;
+   margin-bottom: 0%;
+    text-align: center;
+ 
+}
+.banner-heading{
+    
+    z-index: auto;
+   margin-top: 0%;
+    color: white;
+    font-size: 42px;
+}
+
+/* all categories design  start here */
+.all-categories{
+
+}
+.categories-title{
+color: #FF0000;
+font-size: 45px;
+text-align: center;
+margin-bottom: 0%;
+}
+.categories-description{
+text-align: center;
+font-size: 18px;
+color: #FF0000;
+
+}
+.categories-subtitle{
+text-align:center;
+color: #070211;
+font-size: 30px;
+font-weight: bold;
+}
+.categories-img{
+    align-items: center;
+  width: 500px;
+  height: 400px;
+margin-left: 400px;
+}
+/* all categories design  ends here */
+
+/* midnight party styles start here */
+.section{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)), url(./images/Vectorrr.png);
+background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-image: li;
+    background-size: cover;
+    background-position: center;
+    max-width: 1000px;
+    min-height: 400px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.midnight-info{
+    color: white;
+  width: 400px;
+margin-top: 120px;
+}
+.midnight-img{
+    width: 200px;
+    height: 250px;
+    margin-top: 100px;
+}
+.midnight-title{
+    font-size: 35px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 6px;
+}
+/* midnight party styles ends here */
+
+/* date and time styles start  here */
+.date-time-section{
+    border-radius: 15px;
+    max-width: 70%;
+    height:  200px;
+    margin: auto;
+    margin-top: 70px;
+    align-items: center;
+    padding: 50px;
+    background-color: rgba(238, 224, 224, 0.966);
+    text-align: center;
+}
+.span{
+    color: #FF0000;
+}
+.date-btn{
+    background-color: #FF0000;
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+}
+/* date and time styles ends  here */
+
+/* best offer styles start here  */
+.best-offer-section{
+    max-width: 1000px;
+display: flex;
+margin: auto;
+justify-content: space-around;
+margin-left: 200px;
+margin-top: 70px;
+margin-bottom: 70px;
+}
+.offer-title{
+    width: 260px;
+}
+.offer-title> h3{
+    color: #FF0000;
+    margin-bottom: 0px;
+}
+.offer-title > h1{
+    margin-top: 0%;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+.offer-title>p{
+    margin-top: 10px;
+    color: gray;
+}
+
+.offer-img> img{
+width: 220px ;
+padding: 20px;
+border: 8px solid #FF0000;
+border-radius: 50%;
+height: 220px;
+}
+.offer-description{
+width: 300px;
+}
+.offer-description > h1{
+    color: #FF0000;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+.offer-description > p{
+    color: gray;
+    margin-top: 15px;
+}
+
+/* best offer styles ends here  */
+
+
+/* awsome porfolio section styles start here */
+.portfolio-section{
+    max-width: 1000px;
+    margin: auto;
+}
+.portfolio-section >h2{
+    color: #FF0000;
+    font-size: 20px;
+    margin-left: 50px
+}
+.portfolio-section> h1{
+    margin-top: 0%;
+    font-size: 30px;
+    margin-left: 50px;
+} 
+.portfolio-section> p{
+margin-left: 50px;
+color: gray;
+}
+.portfolio-container{
+display: flex;
+width: 900px;
+
+margin: auto ;
+gap: 25px;
+flex-wrap:wrap ;
+}
+.portfolio-container > img{
+    width: 250px;
+    
+transition: all 0.5s ease-in-out;
+}
+.portfolio-container > img:hover {
+transform: scale(0.8);
+
+opacity: 0.5;
+z-index: 2;
+transition: none;
+width: 250px;
+height: 250px;
+}
+/* awsome porfolio section styles ends here */
+
+/* subscribe section styles start here  */
+.subscribe-section{
+    max-width: 1000px;
+    height: 400px;
+    margin: auto;
+    border-radius: 8px;
+    background-color: rgba(238, 224, 224, 0.966);
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.subscribe-section>img{
+    margin-top: 50px;
+    width: 80px;
+}
+.subscribe-section>h1{
+    font-size: 
+    30px;
+    margin-bottom: 0%;
+}
+.subscribe-section>p{
+    margin-top: 10px;
+    color: gray;
+}
+
+.input-container>input{
+    margin-right: 0%;
+    padding: 9px;
+    width: 300px;
+    border-radius: 6px;
+    border: none;
+}
+
+.subscribe-btn{
+    margin-left: 0%;
+    padding: 9px;
+    border-radius: 6px;
+    border: none;
+    background-color: #FF0000;
+    color: white;
+}
+/* subscribe section styles ends here  */
+
+
+
+/* footer section styles start here  */
+.footer-section{
+    height: 350px;
+    background-color: black;
+    color: white;
+}
+.footer-title{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-images{
+    margin: auto;
+    margin-left: 45%;
+}
+.footer-images>img{
+    width: 50px;
+    margin-left: 14px;
+}
+span>img{
+    background-color: #FF0000;
+    align-items: center;
+    margin-top: 14px;
+}
+.contact-info{
+    display: flex;
+    align-items: center;
+   
+
+}
+hr{
+    width: 70%;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    
+}
+.contact-info{
+    margin-bottom: 0%;
+    width: 200px;
+   padding: 6px;
+  height: 20px;
+ 
+
+}
+.contact-info>img{
+    margin-top: 0px;
+    width: 25px;
+    height: 25px;
+    margin-top: 0%;
+}
+.footer-title{
+  padding-top: 45px;
+    display: flex;
+   
+    align-items: center;
+}
+.footer-copy-description{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 90px;
+}
+/* footer section styles ends  here  */
